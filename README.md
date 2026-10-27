@@ -22,7 +22,13 @@ Currently:
 | Project | What it is | Highlights |
 |---|---|---|
 | [SivarGO](https://github.com/wsalazar1989/sivargo-case-study) | AI-first travel marketplace (iOS/Android) for stays, experiences, food, events and services | Agentic concierge, hybrid search, bookings & refunds ledger, host wallet, electronic invoicing, group plans |
-| [NutriChef Pao](https://github.com/wsalazar1989/nutrichef-case-study) | Booking & patient-records platform for a nutrition practice | Next.js 16 PWA, Google Calendar sync, card payments with webhooks, magic-link auth, blue/green deploys |
+| [NutriChef Pao](https://github.com/wsalazar1989/nutrichef-case-study) | Booking & patient-records platform for a nutrition practice | Next.js 16 PWA, two-way Google Calendar sync, HMAC-verified payment webhooks with 4-layer reconciliation, blue/green deploys with rollback |
+
+## Code
+
+| Repo | What it shows |
+|---|---|
+| [agent-evals-starter](https://github.com/wsalazar1989/agent-evals-starter) | A LangGraph agent with typed tools, deterministic guardrails (unverified-price check, tool-output injection filter), a tool budget and an eval harness with LLM-as-judge. Same design in **TypeScript** and **Python**; tests and offline evals run in CI with no API key. |
 
 ## How I work with LLMs
 
